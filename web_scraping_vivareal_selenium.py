@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 # libraries
 from selenium import webdriver
 from time import sleep
@@ -11,31 +5,16 @@ import pandas as pd
 from selenium.webdriver.common.action_chains import ActionChains
 from datetime import datetime
 
-
-# In[2]:
-
-
 # links 
 url = 'https://www.vivareal.com.br/aluguel/sp/sao-jose-dos-campos/apartamento_residencial/'
-
-
-# In[3]:
-
 
 driver = webdriver.Chrome()
 driver.get(url)
 sleep(4)
 actions = ActionChains(driver)
 
-
-# In[4]:
-
-
 listas = []
 url_check = ['']
-
-
-# In[5]:
 
 
 try:
@@ -92,10 +71,3 @@ while True:
 
 df = pd.DataFrame(listas).to_csv("apto_results.csv", index=False)
 driver.close()
-
-
-# In[ ]:
-
-
-
-
