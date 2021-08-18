@@ -1,7 +1,7 @@
 # Rental Calculator for São josé dos Campos
 
 ## The problem
-- The Problem of anyone who wants to rent an apartment is to analyze and decide the correct price considering the characteristics from the apartment.
+- The Problem of anyone who wants to rent an apartment is to analyze and choose a location based on the comparison between price and the  apartment characteristics.
 
 ## The project
 - To help the users this calculator used [vivareal.com](https://www.vivareal.com.br/), which is a site where anyone can publish and ad to rent their own apartment, so we used the location for São José dos Campos to search apartments and analyze the caracteristics. And for this a Web Scrapping using Selenium was made through the presented process in [data_manipulation_vivareal_selenium.ipynb](https://github.com/tiagotakeshi/rental_calculator/blob/4bcf71fab8f35003c0de5a62bcc42f090e0f047f/data_manipulation_vivareal_selenium.ipynb).
